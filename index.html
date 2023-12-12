@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head lang="es">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Biblioteca Virtual</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="#">Libros nuevos</a>
+            <a href="autores.html">Autores</a>
+            <a href="#" onclick="mostrarFormulario()">Iniciar Sesión</a>
+        </nav>
+
+        <div class="imageninicio">
+            <img src="images/woman-1839798_1280.jpg">
+        </div>
+
+        <div class="bienvenida">
+            <h1>Biblioteca Virtual</h1>
+            <p>Bienvenido a tu biblioteca virtual donde llevamos tus libros favoritos más cerca de ti.</p>
+        </div>
+
+        <div class="recomendaciones">
+            <h2>Recomendados</h2>
+            <p>Mira nuestras fantásticas recomendaciones para ti.</p>
+        </div>
+
+        <div class="quijote">
+            <img src="images/tile-540470_1280.jpg">
+            <h2>Don Quijote de la Mancha</h2>
+            <p>Por Miguel de Cervantes</p>
+            <button onclick="mostrarDetalle('donquijote.html')">Ver Detalles</button>
+        </div>
+
+        <div class="montecristo">
+            <img src="images/books-5211309_1280.jpg">
+            <h2>El Conde de Montecristo</h2>
+            <p>Por Alexandre Dumas</p>
+            <button onclick="mostrarDetalle('montecristo.html')">Ver Detalles</button>
+        </div>
+
+        <div class="vueltaalmundo">
+            <img src="images/globe-3383088_1280.jpg">
+            <h2>La vuelta al mundo en 80 días</h2>
+            <p>Por Jules Verne</p>
+            <button onclick="mostrarDetalle('vueltalmundo.html')">Ver Detalles</button>
+        </div>
+
+        <!-- Agrega más libros según sea necesario -->
+
+        <script src="index.js"></script>
+    </body>
+</html>

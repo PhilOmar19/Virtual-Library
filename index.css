@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #cdbfb7d4;
+}
+
+nav {
+background-color: #333;
+color: white;
+padding: 1.5%;
+text-align: center;
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 1.5%;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+background-color: #555; 
+color: #fff; 
+}
+
+.imageninicio {
+    text-align: center;
+}
+
+.imageninicio img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    clip-path: polygon(0 0, 50% 0, 50% 100%, 0% 100%);
+}
+
+.bienvenida {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    margin-right: 6%;
+    background-color: #8b735b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15%;
+    box-sizing: border-box;
+    height: 121.5%
+}
+
+.bienvenida h1 {
+    margin: 0;
+}
+
+/* Media query para ajustes responsivos */
+@media only screen and (max-width: 1200px) {
+    .imageninicio img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+        clip-path: none;
+    }
+        
+    .bienvenida {
+        position: static; /* Cambia la posición a estática en pantallas más pequeñas */
+        margin-right: 0; /* Elimina el margen derecho en pantallas pequeñas si es necesario */
+        width: 100%; 
+    }
+}
+
+.recomendaciones {
+    margin: 3% 6.5%;
+}
+
+.quijote {
+    background-color: #fff;
+    border-radius: 2.5%;
+    border: 0.5% solid #2a2a2a00;
+    padding-bottom: 2%;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    text-align: center;
+}
+
+.quijote img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.montecristo {
+    background-color: #fff;
+    border-radius: 2.5%;
+    border: 0.5% solid #2a2a2a00;
+    padding-bottom: 2%;
+    margin: 3% 6.5%;
+    text-align: center;
+}
+
+.montecristo img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.vueltaalmundo {
+    background-color: #fff;
+    border-radius: 2.5%;
+    border: 0.5% solid #2a2a2a00;
+    padding-bottom: 2%;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    text-align: center;
+}
+
+.vueltaalmundo img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}

@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #cdbfb7d4;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1.5%;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 1.5%;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.search-bar {
+    margin: 20px 6.5% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.intro {
+    margin: 5% 6.5% 3%;
+    padding: 1%;
+    background-color: #8b735b;
+    color: white;
+}
+
+.autor {
+    margin: 3% 6.5%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 2.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.autor img {
+    max-width: 15%;
+    height: auto;
+    border-radius: 4%;
+    margin-right: 3%;
+    max-height: 15%;
+}
+
+.autor-info {
+    flex: 1; /* Hace que la información del autor ocupe el espacio restante */
+}
+
+.autor-info h2 {
+    margin-top: 0; /* Elimina el margen superior de h2 para un mejor aspecto */
+}
